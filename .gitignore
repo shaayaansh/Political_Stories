@@ -18,6 +18,18 @@ news_data/*
 anecdote_outputs/*
 !anecdote_outputs/.gitkeep
 !anecdote_outputs/README.md
+!anecdote_outputs/anecdote_detection_results/
+!anecdote_outputs/anecdote_only_stance/
+!anecdote_outputs/anecdote_sentences_only/
+anecdote_outputs/anecdote_detection_results/*
+!anecdote_outputs/anecdote_detection_results/.gitkeep
+!anecdote_outputs/anecdote_detection_results/README.md
+anecdote_outputs/anecdote_only_stance/*
+!anecdote_outputs/anecdote_only_stance/.gitkeep
+!anecdote_outputs/anecdote_only_stance/README.md
+anecdote_outputs/anecdote_sentences_only/*
+!anecdote_outputs/anecdote_sentences_only/.gitkeep
+!anecdote_outputs/anecdote_sentences_only/README.md
 
 # Local env folder
 story_generation/

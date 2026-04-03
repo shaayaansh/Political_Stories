@@ -13,7 +13,10 @@ Large dataset files are intentionally **not versioned** in this repo.
 ## Repository Structure
 
 - `news_data/` contains input data files (ignored in git; folder kept for structure).
-- `anecdote_outputs/` contains generated outputs (ignored in git; folder kept for structure).
+- `anecdote_outputs/` contains generated outputs (ignored in git; folder kept for structure), organized into:
+  - `anecdote_outputs/anecdote_detection_results/`
+  - `anecdote_outputs/anecdote_only_stance/`
+  - `anecdote_outputs/anecdote_sentences_only/`
 - `news_data_anecdote_analysis.ipynb` contains the main analysis workflow.
 
 ## Notes

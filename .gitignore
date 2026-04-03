@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Secrets
+sambanova_api_key.txt
+
+# Python envs and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Keep folder structure only for large/raw/generated data
+news_data/*
+!news_data/.gitkeep
+!news_data/README.md
+
+anecdote_outputs/*
+!anecdote_outputs/.gitkeep
+!anecdote_outputs/README.md
+
+# Local env folder
+story_generation/
+openai_api_key.txt

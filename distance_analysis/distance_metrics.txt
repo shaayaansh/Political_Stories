@@ -1,0 +1,252 @@
+CLIMATE CHANGE
+ --- Statistics for ai_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.1596
+  Min: 0.8316
+  Max: 0.9912
+  Median: 0.9331
+  Mean: 0.9291
+Column: distance_to_con_ref
+  Range: 0.1474
+  Min: 0.8421
+  Max: 0.9895
+  Median: 0.9308
+  Mean: 0.9287
+
+--- Statistics for real_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.2963
+  Min: 0.7037
+  Max: 1.0000
+  Median: 0.9655
+  Mean: 0.9543
+Column: distance_to_con_ref
+  Range: 0.2963
+  Min: 0.7037
+  Max: 1.0000
+  Median: 0.9608
+  Mean: 0.9506
+
+
+DEATH PENALTY 
+--- Statistics for ai_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.1047
+  Min: 0.8953
+  Max: 1.0000
+  Median: 0.9439
+  Mean: 0.9451
+
+Column: distance_to_con_ref
+  Range: 0.0548
+  Min: 0.9452
+  Max: 1.0000
+  Median: 0.9778
+  Mean: 0.9784
+
+--- Statistics for real_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.1481
+  Min: 0.8519
+  Max: 1.0000
+  Median: 0.9773
+  Mean: 0.9694
+
+Column: distance_to_con_ref
+  Range: 0.1250
+  Min: 0.8750
+  Max: 1.0000
+  Median: 1.0000
+  Mean: 0.9745
+
+
+
+REPRODUCTIVE RIGHTS
+ --- Statistics for ai_similarity_df ---
+
+Column: distance_to_pro_ref
+  Range: 0.1139
+  Min: 0.8861
+  Max: 1.0000
+  Median: 0.9592
+  Mean: 0.9579
+
+Column: distance_to_con_ref
+  Range: 0.0989
+  Min: 0.9011
+  Max: 1.0000
+  Median: 0.9607
+  Mean: 0.9587
+
+--- Statistics for real_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.0870
+  Min: 0.9130
+  Max: 1.0000
+  Median: 0.9881
+  Mean: 0.9821
+
+Column: distance_to_con_ref
+  Range: 0.1176
+  Min: 0.8824
+  Max: 1.0000
+  Median: 0.9733
+  Mean: 0.9720
+
+
+GUN CONTROL
+--- Statistics for ai_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.1081
+  Min: 0.8919
+  Max: 1.0000
+  Median: 0.9636
+  Mean: 0.9628
+Column: distance_to_con_ref
+  Range: 0.0704
+  Min: 0.9296
+  Max: 1.0000
+  Median: 0.9714
+  Mean: 0.9703
+--- Statistics for real_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.2105
+  Min: 0.7895
+  Max: 1.0000
+  Median: 0.9661
+  Mean: 0.9608
+Column: distance_to_con_ref
+  Range: 0.1667
+  Min: 0.8333
+  Max: 1.0000
+  Median: 0.9744
+  Mean: 0.9671
+
+
+
+IMMIGRATION
+ --- Statistics for ai_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.0941
+  Min: 0.9059
+  Max: 1.0000
+  Median: 0.9684
+  Mean: 0.9669
+Column: distance_to_con_ref
+  Range: 0.0941
+  Min: 0.9059
+  Max: 1.0000
+  Median: 0.9684
+  Mean: 0.9669
+
+--- Statistics for real_similarity_df ---
+Column: distance_to_pro_ref
+  Range: 0.2308
+  Min: 0.7692
+  Max: 1.0000
+  Median: 0.9763
+  Mean: 0.9713
+Column: distance_to_con_ref
+  Range: 0.2308
+  Min: 0.7692
+  Max: 1.0000
+  Median: 0.9763
+  Mean: 0.9713
+
+
+
+
+
+--- Performing Independent Samples t-tests for all topics (AI vs. Human) ---
+
+
+Topic: CLIMATE CHANGE
+-------------------------------------------------------------------
+
+  --- Comparing 'distance_to_pro_ref' (AI vs. Human) ---
+  T-statistic (Pro Ref): -7.3296
+  P-value (Pro Ref): 0.0000
+    Reject H0: Statistically significant difference in 'distance_to_pro_ref'.
+    Mean 'distance_to_pro_ref' (AI): 0.9291
+    Mean 'distance_to_pro_ref' (Human): 0.9543
+
+  --- Comparing 'distance_to_con_ref' (AI vs. Human) ---
+  T-statistic (Con Ref): -7.1183
+  P-value (Con Ref): 0.0000
+    Reject H0: Statistically significant difference in 'distance_to_con_ref'.
+    Mean 'distance_to_con_ref' (AI): 0.9287
+    Mean 'distance_to_con_ref' (Human): 0.9506
+
+
+Topic: DEATH PENALTY
+-------------------------------------------------------------------
+
+  --- Comparing 'distance_to_pro_ref' (AI vs. Human) ---
+  T-statistic (Pro Ref): -12.6691
+  P-value (Pro Ref): 0.0000
+    Reject H0: Statistically significant difference in 'distance_to_pro_ref'.
+    Mean 'distance_to_pro_ref' (AI): 0.9451
+    Mean 'distance_to_pro_ref' (Human): 0.9694
+
+  --- Comparing 'distance_to_con_ref' (AI vs. Human) ---
+  T-statistic (Con Ref): 2.7108
+  P-value (Con Ref): 0.0068
+    Reject H0: Statistically significant difference in 'distance_to_con_ref'.
+    Mean 'distance_to_con_ref' (AI): 0.9784
+    Mean 'distance_to_con_ref' (Human): 0.9745
+
+
+Topic: REPRODUCTIVE RIGHTS
+-------------------------------------------------------------------
+
+  --- Comparing 'distance_to_pro_ref' (AI vs. Human) ---
+  T-statistic (Pro Ref): -14.2878
+  P-value (Pro Ref): 0.0000
+    Reject H0: Statistically significant difference in 'distance_to_pro_ref'.
+    Mean 'distance_to_pro_ref' (AI): 0.9579
+    Mean 'distance_to_pro_ref' (Human): 0.9821
+
+  --- Comparing 'distance_to_con_ref' (AI vs. Human) ---
+  T-statistic (Con Ref): -7.4974
+  P-value (Con Ref): 0.0000
+    Reject H0: Statistically significant difference in 'distance_to_con_ref'.
+    Mean 'distance_to_con_ref' (AI): 0.9587
+    Mean 'distance_to_con_ref' (Human): 0.9720
+
+
+Topic: GUN CONTROL
+-------------------------------------------------------------------
+
+  --- Comparing 'distance_to_pro_ref' (AI vs. Human) ---
+  T-statistic (Pro Ref): 1.0045
+  P-value (Pro Ref): 0.3154
+    Fail to reject H0: No statistically significant difference in 'distance_to_pro_ref'.
+    Mean 'distance_to_pro_ref' (AI): 0.9628
+    Mean 'distance_to_pro_ref' (Human): 0.9608
+
+  --- Comparing 'distance_to_con_ref' (AI vs. Human) ---
+  T-statistic (Con Ref): 1.8612
+  P-value (Con Ref): 0.0631
+    Fail to reject H0: No statistically significant difference in 'distance_to_con_ref'.
+    Mean 'distance_to_con_ref' (AI): 0.9703
+    Mean 'distance_to_con_ref' (Human): 0.9671
+
+
+Topic: IMMIGRATION
+-------------------------------------------------------------------
+
+  --- Comparing 'distance_to_pro_ref' (AI vs. Human) ---
+  T-statistic (Pro Ref): -2.4284
+  P-value (Pro Ref): 0.0154
+    Reject H0: Statistically significant difference in 'distance_to_pro_ref'.
+    Mean 'distance_to_pro_ref' (AI): 0.9669
+    Mean 'distance_to_pro_ref' (Human): 0.9713
+
+  --- Comparing 'distance_to_con_ref' (AI vs. Human) ---
+  T-statistic (Con Ref): -2.4284
+  P-value (Con Ref): 0.0154
+    Reject H0: Statistically significant difference in 'distance_to_con_ref'.
+    Mean 'distance_to_con_ref' (AI): 0.9669
+    Mean 'distance_to_con_ref' (Human): 0.9713
+
+
